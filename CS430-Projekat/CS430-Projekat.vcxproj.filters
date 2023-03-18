@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Steering">
+      <UniqueIdentifier>{a67eefc8-6628-4085-aabd-9f5984ce2c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{73b3f115-079b-4814-b896-0a83b73799c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameWorld">
+      <UniqueIdentifier>{6f05fdb2-4085-4753-b27b-85bba1ea8395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{04ae79e2-921b-4d38-97b4-974e8b743375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{99501860-67ca-4a42-b089-74f823dab1ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehaviors.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentWander.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentEvade.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentPursuit.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticGameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentFollowPath.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BotCommunication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehaviors.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentEvade.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentPursuit.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentWander.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingEntity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameEntity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphEdge.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentFollowPath.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BotCommunication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Telegram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
