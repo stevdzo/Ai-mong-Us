@@ -2,7 +2,7 @@
 
 Kontrole: W, A, S, D; Levim klikom miša interakcija sa šeširom I napad na protivnike; Desnim klikom miša određivanje A* putanje.
 
-AImong Us - Artificial Intelligence in video games
+AImong Us - Veštačka inteligencija u video igrama
 Platforma: Visual Studio - OpenGL & Glut, C++
 Godina izrade: 2021.
 
